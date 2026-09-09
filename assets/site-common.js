@@ -84,6 +84,17 @@
         lightbox.classList.add('open');
       });
     });
+    /* Enlaces a una imagen que la abren en el lightbox en vez de en otra pestaña.
+       Se deja el href real para no perder "abrir en pestaña nueva" del menú contextual. */
+    document.querySelectorAll('a.js-lightbox-link').forEach(link => {
+      link.addEventListener('click', e => {
+        e.preventDefault();
+        lbImg.src = link.getAttribute('href');
+        lbImg.alt = link.getAttribute('data-alt') || '';
+        lightbox.classList.add('open');
+      });
+    });
+
     const lbClose = document.getElementById('lightboxClose');
     if (lbClose) lbClose.addEventListener('click', () => lightbox.classList.remove('open'));
     lightbox.addEventListener('click', e => { if (e.target === lightbox) lightbox.classList.remove('open'); });
