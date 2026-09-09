@@ -61,6 +61,9 @@ const I18N = {
     "carta_loading": "Cargando la carta…",
     "carta_empty": "Estamos actualizando la carta. Mientras tanto, llámanos y te contamos lo que hay hoy.",
     "carta_error": "No se pudo cargar la carta en este momento. Llámanos y te la contamos encantados.",
+    "carta_foto_eyebrow": "La carta impresa",
+    "carta_foto_p": "Esta es la carta tal y como la tienes en la barra. Pulsa en la imagen para verla en grande.",
+    "carta_foto_btn": "Ver a tamaño completo",
     "carta_allergens": "Diríjase a nuestro personal si desea más información al respecto. En cumplimiento del Reglamento (UE) 1169/2011, nuestros productos pueden contener alérgenos.",
 
     "gallery_eyebrow": "Un vistazo",
@@ -186,6 +189,9 @@ const I18N = {
     "carta_loading": "Loading the menu…",
     "carta_empty": "We are updating the menu. In the meantime, give us a call and we'll tell you what's on today.",
     "carta_error": "The menu could not be loaded right now. Give us a call and we'll gladly talk you through it.",
+    "carta_foto_eyebrow": "The printed menu",
+    "carta_foto_p": "This is the menu exactly as you'll find it at the bar. Tap the image to see it full size.",
+    "carta_foto_btn": "View full size",
     "carta_allergens": "Please contact our staff for more information. In compliance with Regulation (EU) 1169/2011, our products may contain allergens.",
 
     "gallery_eyebrow": "A glimpse",
@@ -311,6 +317,9 @@ const I18N = {
     "carta_loading": "Speisekarte wird geladen…",
     "carta_empty": "Wir aktualisieren gerade die Speisekarte. Rufen Sie uns in der Zwischenzeit an — wir sagen Ihnen gern, was es heute gibt.",
     "carta_error": "Die Speisekarte konnte gerade nicht geladen werden. Rufen Sie uns an, wir erzählen Ihnen gern, was es gibt.",
+    "carta_foto_eyebrow": "Die gedruckte Karte",
+    "carta_foto_p": "Das ist die Karte genau so, wie sie bei uns an der Theke liegt. Tippen Sie auf das Bild, um sie groß zu sehen.",
+    "carta_foto_btn": "In voller Größe ansehen",
     "carta_allergens": "Wenden Sie sich bitte an unser Personal, wenn Sie weitere Informationen wünschen. Gemäß der Verordnung (EU) 1169/2011 können unsere Produkte Allergene enthalten.",
 
     "gallery_eyebrow": "Ein Blick hinein",

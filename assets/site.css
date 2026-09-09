@@ -317,6 +317,19 @@ h2.section-title .accent{
 }
 .carta-msg{text-align:center;color:rgba(246,241,231,.72);padding:40px 0;line-height:1.7;}
 
+/* ---------- Carta impresa (foto ampliable) ---------- */
+.carta-foto{margin-top:60px;text-align:center;}
+.carta-foto .lead{max-width:520px;margin:.5rem auto 26px;}
+.carta-foto-fig{
+  margin:0 auto 24px;max-width:400px;
+  border-radius:14px;overflow:hidden;cursor:zoom-in;
+  border:1px solid rgba(246,241,231,.16);
+  box-shadow:0 22px 50px rgba(0,0,0,.45);
+  transition:transform .25s ease, box-shadow .25s ease;
+}
+.carta-foto-fig img{display:block;width:100%;height:auto;}
+.carta-foto-fig:hover{transform:translateY(-4px);box-shadow:0 28px 62px rgba(0,0,0,.58);}
+
 /* ===========================================================
    GALERÍA
    =========================================================== */

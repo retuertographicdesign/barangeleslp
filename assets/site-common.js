@@ -73,11 +73,11 @@
     legalModal.addEventListener('click', e => { if (e.target === legalModal) legalModal.classList.remove('open'); });
   }
 
-  /* ---------- Lightbox de la galería ---------- */
+  /* ---------- Lightbox de la galería y de la carta ---------- */
   const lightbox = document.getElementById('lightbox');
   if (lightbox) {
     const lbImg = document.getElementById('lightboxImg');
-    document.querySelectorAll('#galleryGrid figure img').forEach(img => {
+    document.querySelectorAll('#galleryGrid figure img, .js-lightbox img').forEach(img => {
       img.parentElement.addEventListener('click', () => {
         lbImg.src = img.getAttribute('data-full') || img.src;
         lbImg.alt = img.alt || '';
