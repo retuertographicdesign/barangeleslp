@@ -167,7 +167,6 @@ h2.section-title .accent{
 .hero::before{
   content:'';position:absolute;inset:0;
   background:url('../img/hero.jpg') center/cover no-repeat;
-  transform:scale(1.04);
 }
 .hero::after{
   content:'';position:absolute;inset:0;
