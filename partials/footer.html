@@ -1,0 +1,81 @@
+<footer>
+  <div class="wrap">
+    <div class="f-brand">
+      <span class="badge"><img src="{{PREFIX}}img/logo.png" alt="Bar Los Ángeles"></span>
+      <span>© <span id="year"></span> Bar Los Ángeles · El Paso, La Palma</span>
+    </div>
+    <div class="legal-links">
+      <button type="button" data-legal-tab="aviso" data-i18n="footer_legal">Aviso legal</button>
+      <button type="button" data-legal-tab="privacidad" data-i18n="footer_privacy">Política de privacidad</button>
+      <button type="button" data-legal-tab="cookies" data-i18n="footer_cookies">Política de cookies</button>
+    </div>
+    <a href="tel:+34677350913" class="call" data-i18n="nav_call">Llámanos</a>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Volver arriba">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+</button>
+
+<!-- ================= MODAL LEGAL ================= -->
+<div class="legal-modal" id="legalModal">
+  <div class="legal-box">
+    <div class="legal-head">
+      <h3 id="legalModalTitle" data-i18n="legal_modal_title">Información legal</h3>
+      <button class="legal-close" id="legalClose" aria-label="Cerrar">&times;</button>
+    </div>
+    <div class="legal-tabs">
+      <button class="legal-tab active" data-legal-panel="aviso" data-i18n="footer_legal">Aviso legal</button>
+      <button class="legal-tab" data-legal-panel="privacidad" data-i18n="footer_privacy">Política de privacidad</button>
+      <button class="legal-tab" data-legal-panel="cookies" data-i18n="footer_cookies">Política de cookies</button>
+    </div>
+    <div class="legal-body">
+
+      <div class="legal-panel active" id="legalPanelAviso">
+        <p data-i18n="aviso_p1"></p>
+        <p data-i18n="aviso_p2"></p>
+        <p data-i18n="aviso_p3"></p>
+        <p data-i18n="aviso_p4"></p>
+      </div>
+
+      <div class="legal-panel" id="legalPanelPrivacidad">
+        <h4 data-i18n="priv_h1"></h4>
+        <p data-i18n="priv_p1"></p>
+        <h4 data-i18n="priv_h2"></h4>
+        <ul>
+          <li data-i18n="priv_l1"></li>
+          <li data-i18n="priv_l2"></li>
+          <li data-i18n="priv_l3"></li>
+          <li data-i18n="priv_l4"></li>
+        </ul>
+        <h4 data-i18n="priv_h3"></h4>
+        <p data-i18n="priv_p2"></p>
+        <h4 data-i18n="priv_h4"></h4>
+        <p data-i18n="priv_p3"></p>
+        <h4 data-i18n="priv_h5"></h4>
+        <p data-i18n="priv_p4"></p>
+        <h4 data-i18n="priv_h6"></h4>
+        <p data-i18n="priv_p5"></p>
+      </div>
+
+      <div class="legal-panel" id="legalPanelCookies">
+        <h4 data-i18n="cook_h1"></h4>
+        <p data-i18n="cook_p1"></p>
+        <h4 data-i18n="cook_h2"></h4>
+        <p data-i18n="cook_p2"></p>
+        <h4 data-i18n="cook_h3"></h4>
+        <ul>
+          <li data-i18n="cook_l1"></li>
+          <li data-i18n="cook_l2"></li>
+          <li data-i18n="cook_l3"></li>
+          <li data-i18n="cook_l4"></li>
+        </ul>
+        <h4 data-i18n="cook_h4"></h4>
+        <p data-i18n="cook_p3"></p>
+        <h4 data-i18n="cook_h5"></h4>
+        <p data-i18n="cook_p4"></p>
+      </div>
+
+    </div>
+  </div>
+</div>

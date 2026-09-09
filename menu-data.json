@@ -1,0 +1,185 @@
+{
+  "updated": "2026-09-09",
+  "currency": "€",
+  "categories": [
+    {
+      "id": "bocadillos",
+      "type": "grid",
+      "name": { "es": "Bocadillos", "en": "Baguettes", "de": "Belegte Brötchen" },
+      "sub": {
+        "es": "Bocadillo 3,80 € · Pulga 2,80 € · Sándwich 3,50 € — incluyen lechuga, tomate, cebolla, queso y mayonesa",
+        "en": "Baguette 3.80 € · Small baguette 2.80 € · Sandwich 3.50 € — lettuce, tomato, onion, cheese and mayonnaise included",
+        "de": "Baguette 3,80 € · Kleines Baguette 2,80 € · Sandwich 3,50 € — inklusive Salat, Tomate, Zwiebel, Käse und Mayonnaise"
+      },
+      "grid": [
+        { "es": "Pollo", "en": "Chicken", "de": "Hähnchen" },
+        { "es": "Carne", "en": "Beef", "de": "Rindfleisch" },
+        { "es": "Jamón york", "en": "Ham", "de": "Kochschinken" },
+        { "es": "Salami", "en": "Salami", "de": "Salami" },
+        { "es": "Pata asada", "en": "Roast pork leg", "de": "Schweinebraten" },
+        { "es": "Carne de ave", "en": "Chopped ham", "de": "Geflügelaufschnitt" },
+        { "es": "Queso amarillo", "en": "Cheese", "de": "Gelber Käse" },
+        { "es": "Atún", "en": "Tuna", "de": "Thunfisch" },
+        { "es": "Lomo adobado", "en": "Marinated loin", "de": "Marinierte Schweinelende" },
+        { "es": "Carne mechada", "en": "Shredded beef", "de": "Zerpflücktes Rindfleisch" },
+        { "es": "Queso blanco", "en": "White cheese", "de": "Weißkäse" },
+        { "es": "Tortilla francesa", "en": "Omelette", "de": "Omelett" },
+        { "es": "Bacon", "en": "Bacon", "de": "Bacon" },
+        { "es": "Jamón serrano", "en": "Serrano ham", "de": "Serrano-Schinken" },
+        { "es": "Queso manchego", "en": "Manchego cheese", "de": "Manchego-Käse" },
+        { "es": "Extras +0,50 €", "en": "Extras +0.50 €", "de": "Extras +0,50 €" }
+      ]
+    },
+    {
+      "id": "tostadas",
+      "type": "items",
+      "name": { "es": "Tostadas", "en": "Toasts", "de": "Toasts" },
+      "items": [
+        {
+          "name": {
+            "es": "Pan de masa madre, huevo, aguacate y tomate",
+            "en": "Sourdough bread, egg, avocado and tomato",
+            "de": "Sauerteigbrot, Ei, Avocado und Tomate"
+          },
+          "price": { "es": "6,50", "en": "6.50", "de": "6,50" }
+        },
+        {
+          "name": {
+            "es": "Pan de masa madre, jamón serrano, tomate y queso blanco",
+            "en": "Sourdough bread, serrano ham, tomato and white cheese",
+            "de": "Sauerteigbrot, Serrano-Schinken, Tomate und Weißkäse"
+          },
+          "price": { "es": "6,50", "en": "6.50", "de": "6,50" }
+        },
+        {
+          "name": { "es": "Tostada del día", "en": "Toast of the day", "de": "Toast des Tages" },
+          "price": { "es": "6,50", "en": "6.50", "de": "6,50" }
+        }
+      ]
+    },
+    {
+      "id": "picoteo",
+      "type": "items",
+      "name": { "es": "Picoteo", "en": "Starters", "de": "Vorspeisen" },
+      "items": [
+        {
+          "name": { "es": "Alas de pollo", "en": "Chicken wings", "de": "Hähnchenflügel" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        },
+        {
+          "name": { "es": "Pollo Kentucky", "en": "Kentucky style chicken", "de": "Hähnchen nach Kentucky-Art" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        },
+        {
+          "name": { "es": "Jamón serrano", "en": "Serrano ham", "de": "Serrano-Schinken" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        },
+        {
+          "name": { "es": "Queso blanco", "en": "White cheese", "de": "Weißkäse" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        },
+        {
+          "name": { "es": "Queso manchego", "en": "Manchego cheese", "de": "Manchego-Käse" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        },
+        {
+          "name": {
+            "es": "Brochetas de tomate (8 unidades)",
+            "en": "Tomato skewer (8 units)",
+            "de": "Tomatenspieße (8 Stück)"
+          },
+          "price": { "es": "8,00", "en": "8.00", "de": "8,00" }
+        },
+        {
+          "name": { "es": "Pata asada", "en": "Roast pork leg", "de": "Schweinebraten" },
+          "price": { "es": "6,80", "en": "6.80", "de": "6,80" }
+        }
+      ]
+    },
+    {
+      "id": "hamburguesas",
+      "type": "items",
+      "name": { "es": "Hamburguesas", "en": "Burgers", "de": "Burger" },
+      "note": {
+        "es": "Papas fritas opcionales +2,00 €",
+        "en": "Optional fried potatoes +2.00 €",
+        "de": "Pommes frites optional +2,00 €"
+      },
+      "items": [
+        {
+          "name": { "es": "Normal", "en": "Normal", "de": "Normal" },
+          "desc": {
+            "es": "Carne de vaca palmera, queso, vegetales y salsas",
+            "en": "La Palma beef, cheese, vegetables and sauces",
+            "de": "Rindfleisch von La Palma, Käse, Gemüse und Saucen"
+          },
+          "price": { "es": "7,00", "en": "7.00", "de": "7,00" }
+        },
+        {
+          "name": { "es": "Especial", "en": "Especial", "de": "Especial" },
+          "desc": {
+            "es": "Carne de vaca palmera, queso, huevo, vegetales y salsas",
+            "en": "La Palma beef, cheese, egg, vegetables and sauces",
+            "de": "Rindfleisch von La Palma, Käse, Ei, Gemüse und Saucen"
+          },
+          "price": { "es": "8,00", "en": "8.00", "de": "8,00" }
+        },
+        {
+          "name": { "es": "Vegana", "en": "Vegan", "de": "Vegan" },
+          "desc": {
+            "es": "Carne Heura, rúcula, tomate, cebolla morada y salsas",
+            "en": "Heura meat, arugula, tomato, red onion and sauces",
+            "de": "Heura-Fleischalternative, Rucola, Tomate, rote Zwiebel und Saucen"
+          },
+          "price": { "es": "9,00", "en": "9.00", "de": "9,00" }
+        },
+        {
+          "name": { "es": "De la casa", "en": "De la casa", "de": "De la casa" },
+          "desc": {
+            "es": "150 gr de carne de vaca palmera, queso amarillo, queso manchego, queso blanco, bacon, huevo, vegetales y salsas",
+            "en": "150gr of La Palma beef, cheese, manchego cheese, white cheese, bacon, egg, vegetables and sauces",
+            "de": "150 g Rindfleisch von La Palma, gelber Käse, Manchego-Käse, Weißkäse, Bacon, Ei, Gemüse und Saucen"
+          },
+          "price": { "es": "12,00", "en": "12.00", "de": "12,00" }
+        },
+        {
+          "name": { "es": "Palmera", "en": "Palmera", "de": "Palmera" },
+          "desc": {
+            "es": "Carne de vaca palmera, queso blanco, bacon, pepinillos, mojo y cheddar",
+            "en": "La Palma beef, white cheese, bacon, pickles, mojo sauce and cheddar cheese",
+            "de": "Rindfleisch von La Palma, Weißkäse, Bacon, Essiggurken, Mojo-Sauce und Cheddar"
+          },
+          "price": { "es": "10,00", "en": "10.00", "de": "10,00" }
+        }
+      ]
+    },
+    {
+      "id": "almuerzos",
+      "type": "items",
+      "name": { "es": "Almuerzos", "en": "Lunch", "de": "Mittagsgerichte" },
+      "sub": {
+        "es": "Incluyen bebida y café",
+        "en": "Beverage and coffee included",
+        "de": "Inklusive Getränk und Kaffee"
+      },
+      "items": [
+        {
+          "name": {
+            "es": "Secreto ibérico, papas fritas y ensalada",
+            "en": "Iberian secret, fried potatoes and salad",
+            "de": "Secreto vom iberischen Schwein, Pommes frites und Salat"
+          },
+          "price": { "es": "13,80", "en": "13.80", "de": "13,80" }
+        },
+        {
+          "name": {
+            "es": "Pechuga a la plancha, papas fritas y ensalada",
+            "en": "Grilled chicken breast, fried potatoes and salad",
+            "de": "Hähnchenbrust vom Grill, Pommes frites und Salat"
+          },
+          "price": { "es": "13,80", "en": "13.80", "de": "13,80" }
+        }
+      ]
+    }
+  ]
+}
