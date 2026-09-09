@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Página no encontrada · Bar Los Ángeles</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#141414">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="/img/logo.png">
+<link rel="stylesheet" href="/assets/site.css">
+
+<style>
+  /* Página 404: alto completo para que el footer no suba */
+  .nf{
+    min-height:72vh;
+    display:flex;align-items:center;
+    text-align:center;
+  }
+  .nf .wrap{max-width:720px;}
+  .nf .code{
+    font-family:'Oswald',sans-serif;
+    font-size:clamp(5rem,18vw,10rem);
+    font-weight:600;line-height:.9;
+    color:var(--red-light);
+    margin:0 0 .4rem;
+  }
+  .nf .nf-btns{
+    display:flex;gap:14px;flex-wrap:wrap;justify-content:center;
+    margin-top:2rem;
+  }
+  .nf .lead{margin:0 auto;max-width:52ch;}
+</style>
+</head>
+<body>
+
+<div id="site-header-slot"></div>
+
+<section class="section dark nf">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="nf_eyebrow">Error 404</span>
+    <p class="code">404</p>
+    <h2 class="section-title" data-i18n="nf_title">Esta página no está en la carta</h2>
+    <p class="lead" data-i18n="nf_p">El enlace que has seguido no lleva a ningún sitio. Vuelve al inicio o échale un ojo a la carta, que esa sí que está.</p>
+    <div class="nf-btns">
+      <a href="/index.html#inicio" class="btn" data-i18n="nf_btn1">Volver al inicio</a>
+      <a href="/index.html#carta" class="btn outline" data-i18n="nf_btn2">Ver la carta</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer-slot"></div>
+
+<script>window.SITE_PREFIX = '/';</script>
+<script src="/assets/i18n.js"></script>
+<script src="/assets/site-common.js"></script>
+</body>
+</html>
